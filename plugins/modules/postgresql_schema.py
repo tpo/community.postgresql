@@ -31,7 +31,7 @@ options:
     - login_db
   owner:
     description:
-    - Name of the role to set as owner of the schema.
+    - Name of the role to set as owner of the schema. "owner" corresponds to what Postgresql documentation refers to as "AUTHORIZATION".
     type: str
     default: ''
   session_role:
